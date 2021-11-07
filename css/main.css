@@ -58,8 +58,17 @@ ul li a{
     justify-content: center;
     font-size: 16px;
     font-weight: 800;
+    color: black;
 }
 #btn-conta:hover{
+    background: #f7bb54;
+    transition: 300ms;
+
+}
+#btn-conta-tw {
+    color: black;
+}
+#btn-conta-tw:hover{
     background: #f7bb54;
     transition: 300ms;
 }
@@ -109,7 +118,41 @@ ul li a{
     margin: 20px 20px 0px 0px;
     padding: 10px 20px 10px 20px;
 }
-#btn-conta-tw:hover{
-    background: #f7bb54;
-    transition: 300ms;
+.container-video {
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    
+    justify-content: center;
+}
+.produto {
+    color: #fff!important;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    height: 22rem;
+    width: 22rem;
+    display: block;
+    text-align: center;
+}
+.wrapper-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.text-produto {
+    margin-top: 45px;
+    font-weight: 600;
+}
+.bg-azul {
+    background-color: #003b87!important;
+}
+.bg-azul-meio {
+    background-color: #0073cd!important;
+}
+.bg-azul-ultimo {
+    background-color: #006969!important;
 }
