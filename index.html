@@ -1,86 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Conta Digital Grátis e Cartão de Crédito Sem Anuidade | Neon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Pessoal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="script.js"></script>
 </head>
+
 <body>
-    <header class='header'>
-            <img id="logo" src="./images/logo.svg" alt="Logo Neon">
-            <ul id="opcoes" class="nav">
-                <li><a href="">conta</a></li>
-                <li><a href="">pejota</a></li>
-                <li><a href="">perguntas</a></li>
-                <li><a href="">tarifas</a></li>
-                <li><a href="">#focanodinheiro</a></li>
-                <li><a href="">conheça a neon</a></li>
-                <li><a id="btn-conta"href="./abrir-conta.html" title="Abra sua conta">ABRA SUA CONTA</a></li>
-            </ul>
-    </header>
-    <section class=container id="topo">
-        <section class=text-wrapper>
-            <h1>A conta digital certa pra cuidar bem do seu dinheiro</h1>
-            <p>Neon, conta grátis e cartão sem anuidade. Abra sua conta, é só baixar o app!</p>
-            <a id="btn-conta-tw"href="./abrir-conta.html"  title="Abra sua conta">ABRA SUA CONTA</a>
-        </section>
-        <img src="./images/celular.png" alt="neon">
-    </section>
-    <div class="container-video">
-        <iframe 
-            id="main-video" 
-            src="https://www.youtube.com/embed/cEM7Ff_d1BU?autoplay=1&amp;controls=0" 
-            width="710" 
-            height="400" 
-            frameborder="0" 
-            allowfullscreen="allowfullscreen">
-        </iframe>
+  <div class="container">
+    <div class="profile box">
+      <img id="foto" class="profile-pic" alt="Profile" />
+      <h1 id="nome" class="title">Isabella Lopes</h1>
+      <span id="local">São Paulo, Brazil</span>
+      <p>PROFISSÃO | EMPRESA</p>
+      <ul class="redes-sociais">
+        <li>
+          <a href="#"><img src="img/facebook.svg" alt="Facebook" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/instagram.svg" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/whatsapp.svg" alt="WhatsApp" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/linkedin.svg" alt="LinkedIn" /></a>
+        </li>
+      </ul>
     </div>
-    <section class="produtos">
-        <div class="container-produtos">
-            <div class= "produtos__content-wrapper">
-                <div class="wrapper-titulo">
-
-                </div>
-                <div class="wrapper-produtos">
-                    <a class="bg-azul produto" title="Ir para a página de Crédito">
-                        <picture>
-                            <source type="image/webp" srcset="https://static.devneon.com.br/assets/2021/07/D-neon_site_cartao.webp">
-                            <source type="image/png" srcset="https://static.devneon.com.br/assets/2021/07/D-neon_site_cartao.png">
-                            <img width="150" class="products__item-image" src="https://static.devneon.com.br/assets/2021/07/D-neon_site_cartao.png" alt="ilustração do cartão neon">
-                        </picture>
-                        <h3 class="titulo-produto">Crédito</h3>
-                        <p class="text-produto">Sua conta digital tem cartão de crédito sem anuidade nem complicação</p>
-                    </a>
-
-                    <a class="bg-azul-meio produto" title="Ir para a página de Crédito">
-                        <picture>
-                            <source type="image/webp" srcset="https://static.devneon.com.br/assets/2021/07/D-neon_site_tarifa.webp">
-                            <source type="image/png" srcset="https://static.devneon.com.br/assets/2021/07/D-neon_site_tarifa.png">
-                            <img width="150" class="products__item-image" src="https://static.devneon.com.br/assets/2021/07/D-neon_site_cartao.png" alt="ilustração do cartão neon">
-                        </picture>
-                        <h3 class="titulo-produto">Sem taxas</h3>
-                        <p class="text-produto">Você não paga nada por transferências, boletos de depósito e outros serviços no app</p>
-                    </a>
-
-                    <a class="bg-azul-ultimo produto" title="Ir para a página de Crédito">
-                        <picture>
-                            <source type="image/webp" srcset="https://static.devneon.com.br/assets/2021/07/D-neon_site_invest.webp">
-                            <source type="image/png" srcset="https://static.devneon.com.br/assets/2021/07/D-neon_site_invest.png">
-                            <img width="150" class="products__item-image" src="https://static.devneon.com.br/assets/2021/07/D-neon_site_cartao.png" alt="ilustração do cartão neon">
-                        </picture>
-                        <h3 class="titulo-produto">Investimentos</h3>
-                        <p class="text-produto">Rendem mais que a poupança e você resgata quando quiser</p>
-                    </a>
-                </div>
-                <div class="wrapper-botao">
-
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="portfolio box">
+      <h1 class="title">Portfólio</h1>
+      <ul>
+        <li>
+          <img src="img/1.jpg" alt="1" />
+          <div>
+            <h2>Projeto 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="img/2.jpg" alt="2" />
+          <div>
+            <h2>Projeto 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="img/3.jpg" alt="3" />
+          <div>
+            <h2>Projeto 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <p id="copyright" class="copyright">© 2020 Isabella Lopes</p>
+  </div>
 </body>
+
 </html>
